@@ -54,7 +54,7 @@ function Index() {
         <img
           src={pandaLogo.url}
           alt="Panda"
-          className="mx-auto w-full max-w-md md:max-w-lg"
+          className="mx-auto h-[60px] md:h-[72px] w-auto"
         />
 
         <p className="text-center mt-16 text-xl text-gray-700">
