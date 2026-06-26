@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import pandaLogo from "../assets/panda-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
