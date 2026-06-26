@@ -51,9 +51,11 @@ function Index() {
       </div>
 
       <div className="max-w-2xl mx-auto px-6 pt-16 pb-12">
-        <h1 className="text-center text-6xl md:text-7xl font-bold tracking-tight text-black">
-          PANDA
-        </h1>
+        <img
+          src={pandaLogo.url}
+          alt="Panda"
+          className="mx-auto w-full max-w-md md:max-w-lg"
+        />
 
         <p className="text-center mt-16 text-xl text-gray-700">
           Claim your <span className="font-bold text-black">$500</span> Panda voucher
