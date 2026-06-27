@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import pandaLogo from "../assets/panda-logo.png.asset.json";
+import pandaLogo from "../assets/panda-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -52,7 +52,7 @@ function Index() {
 
       <div className="max-w-2xl mx-auto px-6 pt-16 pb-12">
         <img
-          src={pandaLogo.url}
+          src={pandaLogo}
           alt="Panda"
           className="mx-auto h-[60px] md:h-[72px] w-auto"
         />
