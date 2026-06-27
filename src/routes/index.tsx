@@ -78,9 +78,11 @@ function Index() {
           ))}
         </div>
 
-        <button className="mt-10 w-full bg-black text-white text-xl font-bold py-6 rounded-full hover:bg-gray-900 transition">
-          CLAIM NOW
-        </button>
+        <a href="https://giftclick.org/aff_c?offer_id=174&aff_id=152053&source=panda" className="block">
+          <button className="mt-10 w-full bg-black text-white text-xl font-bold py-6 rounded-full hover:bg-gray-900 transition">
+            CLAIM NOW
+          </button>
+        </a>
 
         <p className="text-center text-gray-500 mt-6 text-sm">
           Completion of sponsored deals is required to claim your voucher.
